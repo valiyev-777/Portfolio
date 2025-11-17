@@ -35,7 +35,7 @@ export const Header = () => {
                 isActive
                   ? "text-gray-900 bg-white shadow-lg"
                   : "text-white/80 hover:text-white hover:bg-white/10"
-              } focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-2 focus:ring-offset-gray-900`}
+              } focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-gray-900`}
             >
               {isActive && (
                 <motion.div

@@ -37,14 +37,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Muhammadsodiq Valiyev" }],
   creator: "Muhammadsodiq Valiyev",
   publisher: "Muhammadsodiq Valiyev",
-  metadataBase: new URL("https://your-portfolio.netlify.app"), // Replace with your Netlify domain
+  metadataBase: new URL("https://valiyev.netlify.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-portfolio.netlify.app", // Replace with your Netlify domain
+    url: "https://valiyev.netlify.app",
     title: "Muhammadsodiq Valiyev - Frontend Developer Portfolio",
     description:
       "Frontend developer specializing in React, Next.js, TypeScript, and modern web technologies.",
@@ -111,7 +111,7 @@ export default function RootLayout({
               "@type": "Person",
               name: "Muhammadsodiq Valiyev",
               jobTitle: "Frontend Developer",
-              url: "https://your-portfolio.netlify.app", // Replace with your Netlify domain
+              url: "https://valiyev.netlify.app",
               sameAs: [
                 "https://github.com/valiyev-777",
                 "https://www.linkedin.com/in/muhammadsodiq-valiyev-a479b4379",

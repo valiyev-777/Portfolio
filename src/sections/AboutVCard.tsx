@@ -324,14 +324,14 @@ export const AboutVCard = () => {
                       <h3 className="text-2xl font-bold text-white">
                         {exp.title}
                       </h3>
-                      <span className="text-white/40">@ {exp.company}</span>
+                      <span className="text-white/70">@ {exp.company}</span>
                     </div>
                     <p className="text-white/60 mb-4">{exp.description}</p>
                     <div className="space-y-2">
                       {exp.achievements.map((achievement, idx) => (
                         <div
                           key={idx}
-                          className="flex items-center gap-2 text-sm text-white/40"
+                          className="flex items-center gap-2 text-sm text-white/70"
                         >
                           <CheckIcon className="w-4 h-4 text-emerald-400" />
                           <span>{achievement}</span>
@@ -389,7 +389,7 @@ export const AboutVCard = () => {
                       }`}
                     />
                   </div>
-                  <span className="text-sm text-white/40">{skill.level}%</span>
+                  <span className="text-sm text-white/70">{skill.level}%</span>
                 </div>
               </motion.div>
             ))}

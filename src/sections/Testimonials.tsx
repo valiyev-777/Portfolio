@@ -69,7 +69,7 @@ export const TestimonialsSection = () => {
                       </div>
                       <div className="">
                         <div className="font-semibold">{testimonial.name}</div>
-                        <div className="text-sm text-white/40">
+                        <div className="text-sm text-white/70">
                           {testimonial.position}
                         </div>
                       </div>

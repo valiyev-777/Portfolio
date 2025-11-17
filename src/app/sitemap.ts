@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://your-portfolio.netlify.app"; // Replace with your Netlify domain
+  const baseUrl = "https://valiyev.netlify.app";
 
   return [
     {
