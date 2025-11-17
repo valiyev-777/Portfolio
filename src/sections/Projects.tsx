@@ -44,8 +44,8 @@ const portfolioProjects = [
     title: "AI Startup Education Website",
     results: [
       { title: "Students can learn faster and better" },
-      { title: "Students can learn spelling words faster and better" },
-      { title: "10k students used the website" },
+      { title: "10k students can use the website" },
+      { title: "Website for spelling words" },
     ],
     link: "https://valiyevspelling.netlify.app/",
     githubLink: "https://github.com/valiyev-777/Spelling",
