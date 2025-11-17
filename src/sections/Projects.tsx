@@ -9,6 +9,7 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import WritingEssays from "@/assets/images/writing.png";
 import Texnos from "@/assets/images/texnos.png";
+import Spelling from "@/assets/images/startupspelling.png";
 
 const portfolioProjects = [
   {
@@ -38,17 +39,17 @@ const portfolioProjects = [
     image: WritingEssays,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Startup",
+    year: "2025",
+    title: "AI Startup Education Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Students can learn faster and better" },
+      { title: "Students can learn spelling words faster and better" },
+      { title: "10k students used the website" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://valiyevspelling.netlify.app/",
     githubLink: "https://github.com/valiyev-777/Spelling",
-    image: aiStartupLandingPage,
+    image: Spelling,
   },
 ];
 
