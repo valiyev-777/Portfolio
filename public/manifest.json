@@ -1,0 +1,18 @@
+{
+  "name": "Muhammadsodiq Valiyev - Frontend Developer Portfolio",
+  "short_name": "Portfolio",
+  "description": "Frontend developer specializing in React, Next.js, TypeScript, and modern web technologies",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
+
